@@ -69,7 +69,7 @@ $cliente = new Clientes($usuario,$nombreCompleto , $clave, $fechaAfliacion, $pre
 $cliente->mostrarInformacion();
 
         
-        class PeriodismoEcologico {
+   class PeriodismoEcologico {
     public $p1;
     public $p2;
     public $p3;
@@ -98,8 +98,8 @@ $respuestasCliente = new PeriodismoEcologico($p1, [$p2], [$p3], $p4);
 $respuestasCliente->mostrarRespuestas();
 
         
-        class Tours{
-            public $p1;
+    class Tours{
+    public $p1;
     public $p2;
     public $p3;
     public $p4;
